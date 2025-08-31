@@ -21,3 +21,50 @@
 21         opacity: 1;
 22         transition: opacity 1s ease;
 23       }
+24       .btn {
+25         padding: 10px 20px;
+26         font-size: 1rem;
+27         background: of5eeef;
+28         border: none: 20px;
+29         border-radiusi: 20px;
+30         cursor: pointer;
+31         color: rgb(5, 2, 2);
+32         transition: 0.3s;
+33       }
+34       .letter {
+35         display: none;
+36         background: repeating-linear-gradient(
+37          to bottom,
+38          #fdf6e3 0px,
+39          #fdf6e3 27px,
+40          #d2d2d2 2px
+41       );
+42       color: #333;
+43       padding: 30px 30px 30px 70px;
+44       border-radius: 10px;
+45       width: 80%;
+46       max-width: 500px;
+47       height: 600px;
+48       box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+49       font-size: 1.1rem;
+50       line-height: 1.6;
+51       text-align: left;
+52       position: relative;
+53       white-space: pre-wrap;
+54       overflow-wrap: break-word;
+55       font-family: "Courier New", monospace;
+56       overflow: visible;
+57     }
+58     .letter p {
+59       margin-top: -55px;
+60       overflow: hidden;
+61     }
+62     .letter: :before {
+63       content: "";
+64       position: absolute;
+65       top: 0;
+66       left: 0;
+67       width: 25px;
+68       height: 100%;
+69       background-image: radial-gradient(circle, #1ef1e2f 6px, transparent 7px);
+70       
